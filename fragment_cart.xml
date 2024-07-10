@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wavesoffood.Fragment.CartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="center"
+        android:text="cart" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_listview"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:layout_marginTop="80dp" />
+
+    <Button
+        android:id="@+id/cart_button"
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+         />
+
+</RelativeLayout>
